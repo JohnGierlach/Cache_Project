@@ -1,0 +1,88 @@
+===== Simulator configuration =====
+BLOCKSIZE:             16
+L1_SIZE:               1024
+L1_ASSOC:              1
+L2_SIZE:               0
+L2_ASSOC:              0
+REPLACEMENT POLICY:    LRU
+INCLUSION PROPERTY:    non-inclusive
+trace_file:            perl_trace.txt
+===== L1 contents =====
+Set     0:      10007b    
+Set     1:      10007b    
+Set     2:      10007b    
+Set     3:      100035    
+Set     4:      1000b4 D  
+Set     5:      10007b    
+Set     6:      1000b0    
+Set     7:      1000b0    
+Set     8:      10006f    
+Set     9:      100072 D  
+Set     10:     100058 D  
+Set     11:     10006f    
+Set     12:     10006f    
+Set     13:     10007a    
+Set     14:     10007a    
+Set     15:     1000b4 D  
+Set     16:     10007b    
+Set     17:     10007a    
+Set     18:     10006f D  
+Set     19:     100079    
+Set     20:     10007a    
+Set     21:     1000ad D  
+Set     22:     10007a    
+Set     23:     10007a D  
+Set     24:     1ec0cf D  
+Set     25:     1000b3 D  
+Set     26:     10006f    
+Set     27:     10006f    
+Set     28:     10007a    
+Set     29:     10007a    
+Set     30:     10007a    
+Set     31:     1000b3 D  
+Set     32:     10003c D  
+Set     33:     10006f D  
+Set     34:     1000b3 D  
+Set     35:     1000ad    
+Set     36:     1000b1 D  
+Set     37:     1000b3 D  
+Set     38:     1ec0cf D  
+Set     39:     1ec0cf D  
+Set     40:     10007a    
+Set     41:     10007a    
+Set     42:     10007a    
+Set     43:     100008    
+Set     44:     100008    
+Set     45:     10007a    
+Set     46:     1ec0cf D  
+Set     47:     100064    
+Set     48:     1000b3 D  
+Set     49:     10004e D  
+Set     50:     1000b2    
+Set     51:     1000b3 D  
+Set     52:     100031    
+Set     53:     10004e    
+Set     54:     100031    
+Set     55:     10004c D  
+Set     56:     10007a    
+Set     57:     10007a D  
+Set     58:     10007a    
+Set     59:     1ec0ce    
+Set     60:     1ec0ce    
+Set     61:     1000b3 D  
+Set     62:     1000b3 D  
+Set     63:     1000b3 D  
+===== Simulation results (raw) =====
+a. number of L1 reads:        70107
+b. number of L1 read misses:  19310
+c. number of L1 writes:       29893
+d. number of L1 write misses: 6684
+e. L1 miss rate:              0.259940
+f. number of L1 writebacks:   9211
+g. number of L2 reads:        0
+h. number of L2 read misses:  0
+i. number of L2 writes:       0
+j. number of L2 write misses: 0
+k. L2 miss rate:              0
+l. number of L2 writebacks:   0
+m. total memory traffic:      35205

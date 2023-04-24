@@ -1,0 +1,217 @@
+===== Simulator configuration =====
+BLOCKSIZE:             16
+L1_SIZE:               1024
+L1_ASSOC:              1
+L2_SIZE:               8192
+L2_ASSOC:              4
+REPLACEMENT POLICY:    LRU
+INCLUSION PROPERTY:    inclusive
+trace_file:            compress_trace.txt
+===== L1 contents =====
+Set     0:      103964 D  
+Set     1:      103964 D  
+Set     2:      103964 D  
+Set     3:      103964 D  
+Set     4:      103964 D  
+Set     5:      103964 D  
+Set     6:      103964 D  
+Set     7:      103964 D  
+Set     8:      103964 D  
+Set     9:      103964 D  
+Set     10:     103964 D  
+Set     11:     103964 D  
+Set     12:     103964 D  
+Set     13:     103964 D  
+Set     14:     103964 D  
+Set     15:     103964 D  
+Set     16:     103964 D  
+Set     17:     103964 D  
+Set     18:     103964 D  
+Set     19:     103964 D  
+Set     20:     103964 D  
+Set     21:     103964 D  
+Set     22:     103964 D  
+Set     23:     103964 D  
+Set     24:     103964 D  
+Set     25:     103964 D  
+Set     26:     103964 D  
+Set     27:     103964 D  
+Set     28:     103964 D  
+Set     29:     103964 D  
+Set     30:     103964 D  
+Set     31:     103964 D  
+Set     32:     103963 D  
+Set     33:     103963 D  
+Set     34:     103963 D  
+Set     35:     103963 D  
+Set     36:     103963 D  
+Set     37:     103963 D  
+Set     38:     103963 D  
+Set     39:     103963 D  
+Set     40:     103963 D  
+Set     41:     103963 D  
+Set     42:     103963 D  
+Set     43:     103963 D  
+Set     44:     103963 D  
+Set     45:     103963 D  
+Set     46:     103963 D  
+Set     47:     103963 D  
+Set     48:     103963 D  
+Set     49:     103963 D  
+Set     50:     103963 D  
+Set     51:     103963 D  
+Set     52:     103963 D  
+Set     53:     103963 D  
+Set     54:     103963 D  
+Set     55:     103963 D  
+Set     56:     103963 D  
+Set     57:     103963 D  
+Set     58:     103963 D  
+Set     59:     103963 D  
+Set     60:     103963 D  
+Set     61:     103963 D  
+Set     62:     103963 D  
+Set     63:     103963 D  
+===== L2 contents =====
+Set     0:      81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     1:      81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     2:      81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     3:      81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     4:      81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     5:      81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     6:      81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     7:      81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     8:      81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     9:      81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     10:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     11:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     12:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     13:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     14:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     15:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     16:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     17:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     18:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     19:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     20:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     21:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     22:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     23:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     24:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     25:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     26:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     27:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     28:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     29:     81cb2     81cb5 D   81cb4 D   81cb3 D   
+Set     30:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     31:     81cb5 D   81cb4 D   81cb3 D   81cb2     
+Set     32:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     33:     81cb2 D   81cb5 D   81cb4 D   81cb3 D   
+Set     34:     81cb2 D   81cb5 D   81cb4 D   81cb3 D   
+Set     35:     81cb2 D   81cb5 D   81cb4 D   81cb3 D   
+Set     36:     81cb2 D   81cb5 D   81cb4 D   81cb3 D   
+Set     37:     81cb2 D   81cb5 D   81cb4 D   81cb3 D   
+Set     38:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     39:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     40:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     41:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     42:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     43:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     44:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     45:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     46:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     47:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     48:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     49:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     50:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     51:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     52:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     53:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     54:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     55:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     56:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     57:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     58:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     59:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     60:     81cb2 D   81cb5 D   81cb4 D   81cb3 D   
+Set     61:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     62:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     63:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     64:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     65:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     66:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     67:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     68:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     69:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     70:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     71:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     72:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     73:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     74:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     75:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     76:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     77:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     78:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     79:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     80:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     81:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     82:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     83:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     84:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     85:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     86:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     87:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     88:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     89:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     90:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     91:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     92:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     93:     81cb2 D   81cb3 D   81cb5 D   81cb4 D   
+Set     94:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     95:     81cb5 D   81cb4 D   81cb3 D   81cb2 D   
+Set     96:     81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     97:     81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     98:     81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     99:     81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     100:    81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     101:    81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     102:    81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     103:    81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     104:    81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     105:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     106:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     107:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     108:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     109:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     110:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     111:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     112:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     113:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     114:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     115:    81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     116:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     117:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     118:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     119:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     120:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     121:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     122:    81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     123:    81cb1     81cb4 D   81cb3 D   81cb2 D   
+Set     124:    81cb2 D   81cb4 D   81cb1     81cb3 D   
+Set     125:    81cb2 D   81cb4 D   81cb1     81cb3 D   
+Set     126:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+Set     127:    81cb4 D   81cb3 D   81cb2 D   81cb1     
+===== Simulation results (raw) =====
+a. number of L1 reads:        51960
+b. number of L1 read misses:  11959
+c. number of L1 writes:       48040
+d. number of L1 write misses: 10458
+e. L1 miss rate:              0.224170
+f. number of L1 writebacks:   18590
+g. number of L2 reads:        22417
+h. number of L2 read misses:  21011
+i. number of L2 writes:       18590
+j. number of L2 write misses: 0
+k. L2 miss rate:              0.937280
+l. number of L2 writebacks:   18066
+m. total memory traffic:      39077

@@ -1,0 +1,56 @@
+===== Simulator configuration =====
+BLOCKSIZE:             16
+L1_SIZE:               1024
+L1_ASSOC:              2
+L2_SIZE:               0
+L2_ASSOC:              0
+REPLACEMENT POLICY:    LRU
+INCLUSION PROPERTY:    non-inclusive
+trace_file:            gcc_trace.txt
+===== L1 contents =====
+Set     0:      20018a    20028d D  
+Set     1:      20028e D  20028d D  
+Set     2:      200153 D  2001c1 D  
+Set     3:      20013b    20028d D  
+Set     4:      20028d    200223 D  
+Set     5:      2001c1    200149    
+Set     6:      20028d D  20028e D  
+Set     7:      20018a    2001ac D  
+Set     8:      20018a    20018f D  
+Set     9:      20018f D  2000f9    
+Set     10:     20017a    2000fa    
+Set     11:     20018a    200009    
+Set     12:     20028d D  200009    
+Set     13:     2000f9    200009    
+Set     14:     2001ac    200009    
+Set     15:     200009    2001b2 D  
+Set     16:     3d819c D  200009    
+Set     17:     20017b D  200009    
+Set     18:     2000fa    200009    
+Set     19:     2001b2 D  200009    
+Set     20:     200009    2000fa    
+Set     21:     200009    200214    
+Set     22:     200009    20023f    
+Set     23:     20013a    2001ab    
+Set     24:     20018f D  2001f2    
+Set     25:     2001ab    2001aa    
+Set     26:     20018d D  20028d D  
+Set     27:     20028d D  20018d D  
+Set     28:     20028d D  20013a    
+Set     29:     20013a    20018d D  
+Set     30:     20018d D  20028c D  
+Set     31:     2001f8 D  20028c D  
+===== Simulation results (raw) =====
+a. number of L1 reads:        63640
+b. number of L1 read misses:  8322
+c. number of L1 writes:       36360
+d. number of L1 write misses: 7680
+e. L1 miss rate:              0.160020
+f. number of L1 writebacks:   8696
+g. number of L2 reads:        0
+h. number of L2 read misses:  0
+i. number of L2 writes:       0
+j. number of L2 write misses: 0
+k. L2 miss rate:              0
+l. number of L2 writebacks:   0
+m. total memory traffic:      24698

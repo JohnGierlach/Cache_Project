@@ -1,12 +1,2 @@
-"# Cache" 
+This project will attempt to analyze the optimal miss rates of different multi-level cache configurations and design a hardware implementation of said configurations to see how they impact power, timing, and utilization on a benchmark FPGA. There will be two main branches of the project which include a high-level cache simulator that will determine the optimal miss rates made in Java and Python and a hardware implementation that will be made using Verilog, SystemVerilog, and Vivado to see the hardware specifications. The main takeaway of this project is to determine the hardware costs and drawbacks of high-performance multi-level cache designs. 
 
-once in the sim file to use the Make file run
-...$ make
-
-then run the main sim with
-...$ ./sim_cache
-
-to clean up the .o files plus the sim_cache binary file run
-...$ make clean
-
-for more look in the Makefile within the sim dir

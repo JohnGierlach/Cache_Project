@@ -14,14 +14,14 @@ SIM_OBJ = cacheSim.o ourHeaders.o
 
 # default rule
 
-all: sim_cache
+all: cacheSim
 	@echo "my work is done here..."
 
 
-# rule for making sim_cache
+# rule for making cacheSim
 
-sim_cache: $(SIM_OBJ)
-	$(CC) -o sim_cache $(CFLAGS) $(SIM_OBJ) -lm
+cacheSim: $(SIM_OBJ)
+	$(CC) -o cacheSim $(CFLAGS) $(SIM_OBJ) -lm
 	@echo "-----------DONE WITH SIM_CACHE-----------"
 
 
@@ -31,13 +31,13 @@ sim_cache: $(SIM_OBJ)
 	$(CC) $(CFLAGS)  -c $*.cc
 
 
-# type "make clean" to remove all .o files plus the sim_cache binary
+# type "make clean" to remove all .o files plus the cacheSim binary
 
 clean:
-	rm -f *.o sim_cache
+	rm -f *.o cacheSim
 
 
-# type "make clobber" to remove all .o files (leaves sim_cache binary)
+# type "make clobber" to remove all .o files (leaves cacheSim binary)
 
 clobber:
 	rm -f *.o
